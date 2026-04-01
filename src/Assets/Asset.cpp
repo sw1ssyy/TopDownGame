@@ -6,7 +6,6 @@
 
 Asset::Asset(std::string fileName, std::string filePath) : _fileName(std::move(fileName)), _filePath(std::move(filePath))
 {
-
 }
 
 std::string Asset::GetFileName()
