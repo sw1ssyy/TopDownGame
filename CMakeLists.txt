@@ -14,14 +14,16 @@ FetchContent_MakeAvailable(raylib)
 add_executable(TopDownGame src/main.cpp
         src/Character.cpp
         src/Character.h
-        src/AssetLoader.cpp
-        src/AssetLoader.h
-        src/Asset.cpp
-        src/Asset.h
-        src/GameAssets.cpp
-        src/GameAssets.h
+        src/Assets/AssetLoader.cpp
+        src/Assets/AssetLoader.h
+        src/Assets/Asset.cpp
+        src/Assets/Asset.h
+        src/Assets/GameAssets.cpp
+        src/Assets/GameAssets.h
         src/GameCore.cpp
         src/GameCore.h
-        src/main.cpp)
+        src/main.cpp
+        src/Weapon.cpp
+        src/Weapon.h)
 
 target_link_libraries(TopDownGame raylib)

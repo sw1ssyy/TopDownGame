@@ -4,7 +4,7 @@
 
 #ifndef TOPDOWNGAME_GAMECORE_H
 #define TOPDOWNGAME_GAMECORE_H
-#include "GameAssets.h"
+#include "Assets/GameAssets.h"
 
 
 class GameCore
@@ -26,6 +26,9 @@ public:
 
 private:
     GameAssets _gameAssets = {};
+
+    const int SCREEN_WIDTH = 854;
+    const int SCREEN_HEIGHT = 480;
 
     GameCore() = default;
     ~GameCore() = default;
