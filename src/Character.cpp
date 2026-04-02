@@ -11,7 +11,7 @@
 Character::Character() :
                          texture(
                              GameCore::GetInstance().GetGameAssets().GetAssetLoader().GetAssetByName("Character").
-                             GetTexture()), CharacterRectangle({250, 350, 250 + 32, 350 + 32}),Texturerectangle({16,0,32,32})
+                             GetTexture()), CharacterRectangle({250, 350,  32,  32}),Texturerectangle({16,0,32,32})
 {
 }
 
