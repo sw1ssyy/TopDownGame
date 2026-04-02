@@ -10,7 +10,7 @@ Weapon::Weapon() : x(400), y(350),
                    texture(
                        GameCore::GetInstance().GetGameAssets().GetAssetLoader().GetAssetByName("Character").
                        GetTexture()), textureRect({0, 0, 16, 16}),
-                   positionRect({x, y, x + texture.width, y + texture.height})
+                   positionRect({x, y, 16,  16})
 {
 }
 
